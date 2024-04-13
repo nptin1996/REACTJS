@@ -1,0 +1,23 @@
+.productItem {
+  text-align: center;
+}
+
+.productItem:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.3s ease-out;
+}
+
+.productItem p:nth-child(2) {
+  margin: 1rem 0 0 0;
+  font-weight: 600;
+}
+
+.productItem p:last-child {
+  color: #b1b2b8;
+}
+
+.productItem img {
+  display: block;
+  width: 100%;
+}

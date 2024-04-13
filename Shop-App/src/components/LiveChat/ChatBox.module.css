@@ -1,0 +1,39 @@
+.chatBox {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.chatBox li {
+  margin-bottom: 1rem;
+}
+
+.chatBox p {
+  margin: 0;
+}
+
+.user {
+  display: flex;
+  justify-content: end;
+}
+.user p {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  color: #fff;
+  background-color: #4cb4f4;
+}
+
+.admin div {
+  display: flex;
+  align-items: start;
+  gap: 0.5rem;
+}
+
+.admin p {
+  display: inline;
+  padding: 0.5rem;
+  color: #8f9399;
+  background-color: #f1f1f1;
+  width: 63%;
+}
