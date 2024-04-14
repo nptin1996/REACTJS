@@ -19,7 +19,9 @@ function ShopList(props) {
             let data = [];
             if (props.dataFilter.type === "name") {
               data = loadedProducts.filter((product) =>
-                product.name.includes(props.dataFilter.data)
+                product.name
+                  .toLowerCase()
+                  .includes(props.dataFilter.data.toLowerCase())
               );
             }
 
